@@ -1,0 +1,117 @@
+* {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#encabezado {
+  display: flex;
+  background-color: #d3d3d3;
+  justify-content: space-between;
+}
+
+input[type="buscar"] {
+  background-color: #ffffff;
+  height: 30px;
+  width: 500px;
+  margin-top: 30px;
+  border: 2px solid gray;
+}
+
+#p_encabezado {
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+#btn_iniciar {
+  height: 50px;
+  width: 150px;
+  color: #f1dada;
+  background-color: #9d1650;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+#btn_iniciar:hover {
+  background-color: #d3779f;
+}
+#pagina {
+  display: flex;
+  justify-content: space-between;
+}
+#parte2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+.definiciones {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 300px;
+  width: 750px;
+  border: 1px solid black;
+  justify-content: space-evenly;
+}
+.tipo {
+  font-size: 30px;
+}
+p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+#btn_like1 {
+  background-color: #feffc7;
+  height: 30px;
+  width: 100px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+#btn_like1:hover {
+  background-color: #f1e27d;
+}
+#btn_like2 {
+  background-color: #feffc7;
+  height: 30px;
+  width: 100px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+#btn_like2:hover {
+  background-color: #f1e27d;
+}
+#agregar {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 700px;
+  height: 180px;
+  border: 1px solid black;
+  margin-top: 30px;
+  align-items: center;
+}
+h5 {
+  display: flex;
+  position: relative;
+  font-size: 20px;
+}
+#btn_definicion {
+  color: #f1dada;
+  text-align: center;
+  background-color: #9d1650;
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+#btn_definicion:hover {
+  background-color: palevioletred;
+}
